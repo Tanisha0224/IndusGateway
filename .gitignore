@@ -1,0 +1,38 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+sentinel_state.db
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Logs and process files
+*.log
+*.pid
+*.out.log
+*.err.log
+
+# Demo recording outputs
+demo-recording/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
